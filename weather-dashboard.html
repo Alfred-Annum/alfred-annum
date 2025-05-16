@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/weather.css">
+    <!-- weather font -->
+    <link href="https://fonts.cdnfonts.com/css/excelsior" rel="stylesheet">            
+</head>
+<body>
+    <div class="weather-dashboard">
+        <div class="weather-header">
+            <h2>Weather Dashboard</h2>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search city...">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="weather-grid">
+            <div class="current-weather">
+                <div class="location-info">
+                    <h3 id="city-name">Loading...</h3>
+                    <p id="current-date">--</p>
+                </div>
+                <div class="weather-main">
+                    <img id="weather-icon" class="weather-icon" src="" alt="Weather icon">
+                    <div id="current-temp" class="current-temp">--°</div>
+                    <div id="weather-desc">--</div>
+                </div>
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-temperature-high"></i>
+                        <span id="feels-like">Feels like: --°</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-tint"></i>
+                        <span id="humidity">Humidity: --%</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <span id="wind-speed">Wind: -- km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-compress-alt"></i>
+                        <span id="pressure">Pressure: -- hPa</span>
+                    </div>
+                </div>
+                <div class="unit-toggle">
+                    <button class="unit-btn active" data-unit="metric">°C</button>
+                    <button class="unit-btn" data-unit="imperial">°F</button>
+                </div>
+            </div>
+
+            <div id="map" class="weather-map"></div>
+        </div>
+
+        <div class="forecast-container">
+            <h3>5-Day Forecast</h3>
+            <div id="forecast-days" class="forecast-days">
+                <!-- Forecast items will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add these to your existing script includes -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="js/weather-dashboard.js"></script>
+</body>
+</html>
