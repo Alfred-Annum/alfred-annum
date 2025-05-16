@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <title>Alfred Annum | Web Developer</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Animated Page Loader -->
+<div class="page-loader">
+  <div class="loader-container">
+    <div class="tech-avatar">
+      <img src="img/back.png" alt="Code Tech Avatar">
+    </div>
+    <div class="jumping-text">
+      <span class="letter">C</span>
+      <span class="letter">o</span>
+      <span class="letter">d</span>
+      <span class="letter">e</span>
+      <span class="space">-</span>
+      <span class="letter">T</span>
+      <span class="letter">e</span>
+      <span class="letter">c</span>
+      <span class="letter">h</span>
+    </div>
+    <div class="slde-track">
+      <div class="slder"></div>
+    </div>
+  </div>
+</div>
+
+
+   <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#home"></span>Code-Tech<span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox" />
+                                <div class="slider round"></div>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span>Alfred Annum</span></h1>
+                    <h2>Full Stack Web Designer & Developer</h2>
+                    <p>I build exceptional digital experiences that are fast, accessible, and visually appealing.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+
+                          <!-- Multiple images for rotation -->
+                <img src="img/1.jpg" alt="Developer working" class="profile-img active">
+                <img src="img/2.jpg" alt="Coding session" class="profile-img">
+                <img src="img/3.jpg" alt="Web development" class="profile-img">
+                <img src="img/4.jpg" alt="Tech workspace" class="profile-img">
+                <img src="img/5.jpg" alt="Coding session" class="profile-img">
+                <img src="img/6.jpg" alt="Web development" class="profile-img">
+
+                        <div class="tech-icons">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-react"></i>
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate web developer with 5+ years of experience creating modern web applications. My journey in tech started when I built my first website at 15, and I've been hooked ever since.</p>
+                        <p>I specialize in JavaScript frameworks and have extensive experience with React, Node.js, and modern CSS. I believe in writing clean, maintainable code and creating intuitive user experiences.</p>
+                        <p>When I'm not coding, you can find me hiking, reading sci-fi novels, or experimenting with new cooking recipes.</p>
+                        <div class="resume-btn">
+                            <a href="#" class="btn primary">Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>30+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress html"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>CSS3/SASS</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress css"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress js"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress react"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress node"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Express</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress express"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>MongoDB</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress mongo"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress git"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Webpack</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress webpack"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Figma</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress figma"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/banner.png" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Platform</h3>
+                            <p>A full-stack e-commerce solution with React, Node.js, and MongoDB.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/code-tech-debug/Code_Tech" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/premium_real_estate.png" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Real Estate App</h3>
+                            <p>A productivity app with drag-and-drop functionality and real-time updates.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Firebase</span>
+                                <span>SASS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/code-tech-debug/Code_Tech" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/Weather.png" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather Dashboard</h3>
+                            <p>Real-time weather information with interactive maps and forecasts.</p>
+                            <div class="project-tech">
+                                <span>HTML 5</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/code-tech-debug/Code_Tech" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#project" class="btn secondary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's talk about your project</h3>
+                        <p>I'm currently available for freelance work or full-time positions. If you have a project that needs creative solutions, feel free to reach out.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>alfredannum25@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233(59)651-2099</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Tse-Addo</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/code-tech-debug/Code_Tech"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/alfredannum/"><i class="fab fa-linkedin"></i></a>
+                            <a href="http://wa.me/233596512099"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://t.me/mrr_annum"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder=" Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                        <div class="load"> <i class="fa-duotone fa-solid fa-spinner"></i> </div>
+                        <div class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#"></span>Alfred Annum<span></a>
+                </div>
+                <p class="footer-about">I'm a passionate web developer creating modern, responsive websites and applications with clean code and user-friendly designs.</p>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn small primary">Subscribe</button>
+                    </form>
+                    <p class="newsletter-note">Get updates on my latest projects and articles.</p>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-services">
+                    <li><a href="#"><i class="fas fa-laptop-code"></i> Web Development</a></li>
+                    <li><a href="#"><i class="fas fa-mobile-alt"></i> Responsive Design</a></li>
+                    <li><a href="#"><i class="fas fa-paint-brush"></i> UI/UX Design</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                    <li><a href="#"><i class="fas fa-bug"></i> Debugging</a></li>
+                    <li><a href="#"><i class="fas fa-rocket"></i> Performance Optimization</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Azuria Street, Tse-Addo</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>+233(59)651-2099</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>alfredannum25@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Fri: 9AM - 5PM</span>
+                    </li>
+                </ul>
+                
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/code-tech-debug/Code_Tech" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/alfredannum/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="http://wa.me/233596512099" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <!-- <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a> -->
+                        <a href="https://t.me/mrr_annum" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <!-- <a href="#" aria-label="Medium"><i class="fab fa-medium-m"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; <span id="year"></span> Alfred Annum. All rights reserved.</p>
+            </div>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="back-to-top">
+                <a href="#home" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+       <!-- chatbot -->
+     <div class="chatbot">
+        <header>
+          <h2>QuickChat</h2>
+          <span  class="close-btn matrial-symbols"><i class='bx bx-x'></i></span>
+       </header>
+       <ul class="chatbox">
+          <li class="chat incoming">
+              <span class="matrial-symbols"><i class='bx bxs-bot'></i></span>
+              <p>Hi👋 Am QuickChat An Assistant<br> How can i help you today?</p>
+          </li>
+       </ul>
+        <div class="chat-input">
+          <textarea placeholder=" Type your message..." required></textarea>
+          <span id="send-btn" class="matrial-symbols"><i class='bx bxs-send'></i></span>
+        </div>
+      </div>
+      <button class="chatbot-toggler">
+        <span  class="matrial-symbols"><i class='bx bx-comment'></i></span>
+        <span  class="matrial-symbols"><i class='bx bx-x'></i></span>
+      </button>
+
+           <!-- script -->
+    <script src="js/script.js" defer></script>
+  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- Add these to your existing script includes -->
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+</body>
+</html>
